@@ -1,0 +1,2 @@
+The website is responsive to all device.
+All function without JS only CSS.

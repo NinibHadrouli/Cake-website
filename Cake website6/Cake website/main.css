@@ -1,0 +1,280 @@
+
+body{
+   font-family: cursive;
+    margin: auto;
+ background-image: url("https://download.hipwallpaper.com/desktop/1920/1080/94/97/4jawvA.jpg");
+    background-repeat:no-repeat;
+   /*  background-position:top; */
+
+    background-attachment: fixed;
+   background-size: cover;
+    background-color: #cfc;
+    
+    
+    
+}
+.message{display: none;}
+hr{
+    height: 4px;
+    
+    background-color: brown;
+}
+img{
+    width: 43%;
+   border: 4px solid chocolate;
+    border-radius: 7px;
+}
+a{
+    text-decoration: none;
+}
+.main-contant{
+    width: 90%;
+     margin: auto;
+    
+}
+nav{
+    overflow: hidden;
+    background-color:#007777;
+    height: 80px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+nav ul{
+    padding-left: 5px;
+    display: inline-block;
+    list-style: none;
+   
+}
+nav li{
+   float: left;
+  display: block;
+  
+
+  padding: 14px;
+ 
+    font-size: 22px;
+    
+   
+}
+nav a{
+    color: white;
+}
+.infor{
+    width: 45%;
+    float: left;
+    display: block;
+}
+.infor p{
+    color:	#fa3c4c;
+    text-shadow: 1px 1px 2px black;
+    font-family:serif;
+    font-style: italic;
+    
+    
+}
+main h1{
+    font-size: 35px;
+    box-shadow: -6px 4px black;
+    border-radius: 5px;
+    padding: 9px;
+    background-color: #6b3e26;
+    display: inline-block;
+    margin: 0 20px 0 50px;
+    color: white;
+    text-align: center;
+    
+}
+main h2{
+    text-shadow: 3px 2px 3px black;
+    color: burlywood;
+}
+.infor h2{
+    font-size: 25px;
+    color:darkorange ;
+    border-radius: 5px;
+    
+}
+.infor p{
+    font-size: 22px;
+    padding-left: 10px;
+    padding-top: 0;
+    display: inline-block;
+    
+}
+.Ingredients{
+    width: 51%;
+    padding-left: 15px;
+    margin-left: 10px;
+    background-color:burlywood;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+}
+.Ingredients h3,.Directions h3 {
+    background-color: chocolate;
+    display: inline-block;
+    margin: 5px 0 10px 0;
+    padding: 6px;
+    border-radius: 7px;
+    color: white;
+    
+}
+
+.Ingredients h4{
+   color: chocolate;
+    margin:10px 0 0px 0;
+    text-shadow: 1px 1px white;
+    font-size: 18px;
+}
+.Ingredients ul:hover{
+    background-color: #ebd197;
+    transition: 0.3s;
+}
+.Ingredients ul{
+    margin-right:   10px;
+    border-radius: 5px;
+}
+.Ingredients li:hover{
+    text-shadow: 1px 2px black;
+    transition: 0.3s;
+}
+
+
+.Directions{
+   
+    width: 75%;
+  
+}
+.Directions p{
+    width: 50%;
+    font-size: 20px;
+    
+}
+.card-right {
+    display: inline-block;
+   background-color: #faebd7;
+    border-radius: 5px;
+
+}
+.card-right img{
+    
+   float:right;
+}
+.card-right p{
+    float: left;
+    padding-left: 10px;
+    margin:5px 0 0 0;
+    
+   
+}
+.card-right p:hover{
+    text-shadow: 1px 2px 2px chocolate;
+    transition: 0.3s;
+}
+.card-left p{
+    float: right;
+    margin:5px 0px 0 0;
+   
+}
+.card-left p:hover{
+    text-shadow: 1px 2px 2px chocolate;
+    transition: 0.3s;
+}
+.card-left {
+   display: inline-block;
+ background-color:#f7c19b;
+    margin: 10px auto;
+    border-radius: 5px;
+   
+}
+.Links lable{
+    font-size: 20px;
+}
+.Links ul{
+   padding-left: 29px;
+   border-radius: 5px;
+    background-color: brown;
+    list-style-image: url(image/link_16px.png);
+}
+.Links li{
+    padding:3px; 
+    
+}
+.Links a:hover{
+    color:#f7c19b ; 
+    
+}
+.Links a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+footer{
+    background-color: darkgray;
+    margin: 0 10PX;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+@media (min-width:710px) and (max-width:1100px) {
+    /*h1::after{content: "710--1100px"}*/
+    .infor p{font-size: 1.1em;}
+    .Directions p{font-size: 1.1em;}
+    .Directions{width: 90%;}
+    main h1{font-size: 1.6em;}
+    
+   
+}
+@media (min-width:501px) and (max-width:710px) {
+    /*h1::after{content: "510--710px"}*/
+    .infor p{font-size: 1.1em;}
+     .Directions p{font-size: 0.8em}
+    .Directions{width: 90%;}
+    .Ingredients{width: 47%;}
+    main h2{font-size: 1.4em;}
+    nav {height: 55px;}
+    nav li{font-size: 1.5em;padding: 0px 10px 0 0;margin: -3px 0 0 0;}
+    main h1{font-size: 1.5em;}
+    
+}
+@media (min-width:400px) and (max-width:500px) {
+    .Ingredients{width: 100%;padding: 0;}
+    .Ingredients{font-size: 1.1em;}
+    .infor p{font-size: 1.1em;}
+    .infor {width: 100%;}
+    .Directions{width: 100%;}
+    .Directions p{font-size: 0.6em;}
+    main h2{font-size: 1.2em;}
+    .Links a{font-size: 1.1em;}
+
+   /* h1::after{content: "400---500"}*/
+    nav {height: 50px;}
+    nav li{font-size: 1.3em;padding: 0px 7px 0 0;margin: -3px 0 0 0;}
+    main h1{font-size: 1.4em;}
+}
+@media (min-width:300px) and (max-width:400px){
+    .Ingredients{width: 100%;padding: 0;}
+    .Ingredients{font-size: 1.1em;}
+    .infor p{font-size: 1.1em;}
+    .infor {width: 100%;}
+    .Directions{width: 100%;}
+    .Directions p{font-size: 0.6em;}
+     main h2{font-size: 1em;}
+    .Links a{font-size: 1.1em;}
+     footer p{font-size: 0.8em;}
+     nav {height: 50px;}
+     nav li{font-size: 1.2em;padding: 0px 7px 0 0;margin: -3px 0 0 0;}
+     main h1{font-size: 1.3em;}
+    
+}
+@media (max-width:300px){
+    .container{display: none;}
+    .message{
+        display: block;
+        padding: 10px;
+        background-color: red;
+    }
+    }
+
+}
